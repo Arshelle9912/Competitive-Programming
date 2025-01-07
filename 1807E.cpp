@@ -6,16 +6,13 @@ int binarySearch(int n, vector<int>& pieces) {
     int low = 1, high = n, ans = -1;
     while (low <= high) {
         int mid = low + (high - low) / 2;
-        
         cout << "? " << mid - low + 1 << " ";
         for (int i = low; i <= mid; ++i) {
             cout << i << " ";
         }
         cout << endl;
-        
         int sum;
         cin >> sum;
-
         int l = low > 1 ? pieces[low - 2] : 0;
         if (pieces[mid - 1] - l < sum) {
             ans = mid;
@@ -24,9 +21,7 @@ int binarySearch(int n, vector<int>& pieces) {
             low = mid + 1;
         }
     }
-    
     cout << "! " << ans << endl;
-    cout.flush();
     return ans;
 }
 
