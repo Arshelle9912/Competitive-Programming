@@ -3,6 +3,8 @@
         "deque": "cpp",
         "map": "cpp",
         "iostream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "stack": "cpp",
+        "set": "cpp"
     }
 }
