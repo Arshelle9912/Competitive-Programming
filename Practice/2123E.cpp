@@ -10,7 +10,6 @@ int main() {
         vector<int> freq(n+1);
         vector<int> pref(n+1);
         vector<int> diff(n+2);
-        set<int> s;
         for (int i = 0; i<n; i++) {
             cin >> arr[i];
             freq[arr[i]]++;
