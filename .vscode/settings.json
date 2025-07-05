@@ -6,6 +6,12 @@
         "vector": "cpp",
         "stack": "cpp",
         "set": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "__split_buffer": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "__locale": "cpp",
+        "string_view": "cpp",
+        "__tree": "cpp"
     }
 }
