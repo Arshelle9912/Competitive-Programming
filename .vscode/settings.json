@@ -12,6 +12,7 @@
         "regex": "cpp",
         "__locale": "cpp",
         "string_view": "cpp",
-        "__tree": "cpp"
+        "__tree": "cpp",
+        "queue": "cpp"
     }
 }
